@@ -95,10 +95,7 @@ score.to_musicxml('happy_birthday.musicxml', signature=(3, 4), title='Happy birt
 See [MusicLang Predict](https://github.com/MusicLang/musiclang_predict) for more information.
 
 
-- Infer Demp
-```python
-以下是将代码整理为单个 `.py` 文件的版本：
-
+- Infer Demo
 ```python
 # -*- coding: utf-8 -*-
 
@@ -113,7 +110,7 @@ from openai import OpenAI
 # 设置 API 密钥
 api_key = ""
 
-# 初始化 OpenAI 客户端
+# 初始化 OpenAI 客户端j
 client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
 # 读取 library.py 文件内容
