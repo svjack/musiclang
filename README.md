@@ -144,8 +144,8 @@ with open("library_knowledge.txt", "r") as f:
 
 # 定义生成《生日快乐》MIDI 文件的 Python 代码
 produce_midi_py = '''
-下面是根据上面的知识生成 happy_birthday mid 的python代码
-```python
+下面是根据上面的知识生成 happy_birthday mid 的python代码:
+
 from musiclang.library import *
 
 # Create a cool melody (the beginning of happy birthday, independant of any harmonic context)
@@ -168,7 +168,6 @@ score = (I % I.M)(violin__0=r.h) + score
 score = score.get_counterpoint(fixed_parts=['violin__0'])
 
 score.to_midi('happy_birthday.mid')
-```
 '''
 
 # 定义用户提示，要求生成《一闪一闪亮晶晶》的 Python 代码
