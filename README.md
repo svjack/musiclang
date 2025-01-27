@@ -37,7 +37,9 @@ MusicLang is available on Pypi :
 ```
 pip install musiclang
 ```
-    
+
+- Render In:     
+- https://huggingface.co/spaces/asigalov61/Advanced-MIDI-Renderer
 
 Examples
 ---------
@@ -77,6 +79,8 @@ score = (I % I.M)(violin__0=r.h) + score
 
 # Transform a bit the accompaniment by applying counterpoint rules automatically
 score = score.get_counterpoint(fixed_parts=['violin__0'])
+
+score.to_midi('happy_birthday.mid')
 
 # Save it to musicxml
 score.to_musicxml('happy_birthday.musicxml', signature=(3, 4), title='Happy birthday !')
